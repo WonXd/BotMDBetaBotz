@@ -620,7 +620,7 @@ user.afkReason = ''
 // Detect Group Invite
 if (m.mtype === 'groupInviteMessage') {
 teks = `Ketik .owner untuk bergabung ke group whatsapp anda`
-sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./media/image/mans.jpg'), 2022, "Lol Lexxy+ ~ Multi Device", "6283155687629@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./media/image/mans.jpg'), 2022, "Rixzz+ ~ Multi Device", "6283155687629@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 /*const bodyyy = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
 if (!isCmd && !m.isGroup && !m.key.fromMe) {
@@ -675,7 +675,7 @@ addBalance(m.sender, hadippp, balance)
 kuis = true
 jawaban = tebaklagu[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© ||77+ - X - Lol Lexxy+", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© ||77+ - X - WonXd+", m)
 delete tebaklagu[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -686,7 +686,7 @@ addBalance(m.sender, hadippp, balance)
 kuis = true
 jawaban = tebakgambar[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete tebakgambar[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -697,7 +697,7 @@ addBalance(m.sender, hadippp, balance)
 kuis = true
 jawaban = tebakkata[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete tebakkata[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -709,7 +709,7 @@ kuis = true
 jawaban = caklontong[m.sender.split('@')[0]]
 deskripsi = caklontong_desk[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
@@ -721,7 +721,7 @@ addBalance(m.sender, hadippp, balance)
 kuis = true
 jawaban = tebakkalimat[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete tebakkalimat[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -732,7 +732,7 @@ addBalance(m.sender, hadippp, balance)
 kuis = true
 jawaban = tebaklirik[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete tebaklirik[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -743,7 +743,7 @@ addBalance(m.sender, hadippp, balance)
 kuis = true
 jawaban = tebaktebakan[m.sender.split('@')[0]]
 if (budy.toLowerCase() == jawaban) {
-await mans.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+await mans.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Tebak Tebakan' }, type: 1 }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete tebaktebakan[m.sender.split('@')[0]]
 } else m.reply('*Jawaban Salah!*')
 }
@@ -986,7 +986,7 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": log0 //Gambarnye
 },
-"title": "Lol Lexxy+", //Kasih namalu 
+"title": "WonXd+", //Kasih namalu 
 "description": "SELF BOT", 
 "currencyCode": "USD",
 "priceAmount1000": "2000",
@@ -1082,11 +1082,11 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
  "videoMessage": { 
- "title":"Lol Lexxy+",
+ "title":"WonXd+",
  "h": `Hmm`,
  'seconds': "30", 
  'gifPlayback': 'true', 
- 'caption': 'Lol Lexxy+',
+ 'caption': 'WonXd+',
  'jpegThumbnail': log0
 }
 }
@@ -1136,7 +1136,7 @@ const jumlahUser = pendaftar.length
   if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
   
 const listmn = `Selamat ${salam} ${pushname} 👋
-Saya *${namebot}*, Assisten *Lexxy Official* Bot Ini Adalah Beta Multi-Device WhatsApp.
+Saya *${namebot}*, Babu nya *Arii* Bot Ini Adalah Beta Multi-Device WhatsApp.
 Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
 ─────────────
 ❏ *Info User*
@@ -1145,13 +1145,13 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
 > Role User : *${role}*
 ────────────
 ❏ *Info Creator*
-> Name : *Lexxy Official*
-> Nomor : *082279915237*
+> Name : *Cwonya aca*
+> Nomor : *0895337747795*
 > Umur : *18+*
 > Region : *Indonesia 🇲🇨*
 > Hobyy : *Coding*
-> Made in : *Palembang*
-> Nama Asli : *Pebri Pratama*
+> Made in : *Central Java*
+> Nama Asli : *AriiiXd*
 ────────────
 ❏ *Info Server*
 > Tanggal Server : *${jangwak}*
@@ -1192,12 +1192,12 @@ case 'hanzo': case 'prp': case 'inventori': case 'profile':{
      teksehmazeh += `*Role* : ${role}\n`
      teksehmazeh += `*Level* : ${getLevelingLevel(m.sender)}`
      let butRun = [
-        	{ urlButton: { displayText: `Group WhatsApp`, url : `https://chat.whatsapp.com/E3zewfxrc5pKE6Rzb3BuqG` } },
-        	{ urlButton: { displayText: `Instagram`, url : `https://Instagram.com/Lexxy24` } },
-            { urlButton: { displayText: `☎️Contact Me`, url: `+62 857-8900-4732` } },
+        	{ urlButton: { displayText: `Group WhatsApp`, url : `https://chat.whatsapp.com/EuYyZHyBE32IQmUHiWRTTf` } },
+        	{ urlButton: { displayText: `Instagram`, url : `https://Instagram.com/sampeanikupicek` } },
+            { urlButton: { displayText: `☎️Contact Me`, url: `+62 895-3374-47795` } },
             { quickReplyButton: { displayText: `🏧 leaderboard`, id: 'leaderboard'} }
         	]
-        	mans.sendMessage(m.chat, { caption: teksehmazeh, document: { url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx' }, mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation', fileName: '© LexxyBotMD', templateButtons: butRun, footer: `ingin Berpetualang Lagi`, mentions: [m.sender] })
+        	mans.sendMessage(m.chat, { caption: teksehmazeh, document: { url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx' }, mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation', fileName: '© WonBotMD', templateButtons: butRun, footer: `ingin Berpetualang Lagi`, mentions: [m.sender] })
         	}
         	break
  
@@ -1205,12 +1205,12 @@ case 'list': case 'menu': case 'help': case '?': {
                 let kontol = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Lexxy24/KaguraMD'
+                                    url: 'https://github.com/WonXd/'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 822-7991-5237'
+                                    phoneNumber: '+62 895-3374-47795'
                                 }
                             },{
                                 quickReplyButton: {
@@ -1219,7 +1219,7 @@ case 'list': case 'menu': case 'help': case '?': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Owner',
+                                    displayText: 'Hubungi Ari',
                                     id: 'owner'
                                 }  
                             }, {
@@ -1228,13 +1228,13 @@ case 'list': case 'menu': case 'help': case '?': {
                                     id: 'hanzo'
                                 }
                             }]
-mans.send5ButImg(m.chat, listmn, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.thumb, kontol)
+mans.send5ButImg(m.chat, listmn, `© AcAntik-WonXd`, global.thumb, kontol)
 }
         	break
 case 'grupbot':
 case 'groupbot':
 case 'botgrup':
-fakey(`https://chat.whatsapp.com/E3zewfxrc5pKE6Rzb3BuqG`)
+fakey(`https://chat.whatsapp.com/EuYyZHyBE32IQmUHiWRTTf`)
 break
 case 'limit':
 fakey(`*Sisa Limit Anda : ${global.db.users[m.sender].limit}*`)
@@ -1789,7 +1789,7 @@ case 'mancing':{
     let buttonMessage = {
       image: { url: './storage/image/mancing.jpg' },
       caption: caption,
-      footer: "Fax Ganteng",
+      footer: "Aca Ganteng",
       buttons: buttons,
       headerType: 4
      }
@@ -2097,7 +2097,7 @@ case 'wallpaper': {
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `Title : ${result.title}\nCategory : ${result.type}\nDetail : ${result.source}\nMedia Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: `© Created Lol Lexxy`,
+                    footer: `© Created WonXd`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2115,7 +2115,7 @@ case 'wallpaper': {
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
-                    footer: `© Created Lol Lexxy`,
+                    footer: `© Created WonXd`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2125,7 +2125,7 @@ case 'wallpaper': {
 case 'quotesimage':case 'qoutesimage':
 				   let cok = await fetchJson(`http://api.lolhuman.xyz/api/random/quotesimage?apikey=${lolkey}`)
 				   fakey(mess.wait)
-				  mans.sendMessage(m.chat, { image: { url: cok }, caption: 'Done By LexxySlemek' }, { quoted: m })
+				  mans.sendMessage(m.chat, { image: { url: cok }, caption: 'Done By WonXd' }, { quoted: m })
 				  break
             case 'quotesanime': case 'quoteanime': {
 		let { quotesAnime } = require('./lib/scraper')
@@ -2166,7 +2166,7 @@ let sections = []
       from, 
       {
        text: "Anime Search",
-       footer: "Lol Lexxy",
+       footer: "WonXd",
        title: "Data Base Ada Di Button Ini",
        buttonText: "Click and see search results➡️",
        sections
@@ -2229,7 +2229,7 @@ case 'coffe': case 'kopi': {
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: `Created By © LexxySlemek`,
+                    footer: `Created By © WonXd`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2402,7 +2402,7 @@ tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete tebaklagu[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'gambar') {
@@ -2415,7 +2415,7 @@ tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`,"© Lol Lexxy+ - X - Lol Lexxy+", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`,"© Rixzz+ - X - Rixzz+", m)
 delete tebakgambar[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'kata') {
@@ -2428,7 +2428,7 @@ tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete tebakkata[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'kalimat') {
@@ -2441,7 +2441,7 @@ tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete tebakkalimat[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'lirik') {
@@ -2454,7 +2454,7 @@ tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
 await sleep(60000)
 if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete tebaklirik[m.sender.split('@')[0]]
 }
 } else if (args[0] === 'lontong') {
@@ -2468,7 +2468,7 @@ caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
 await sleep(60000)
 if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
 console.log("Jawaban: " + result.jawaban)
-mans.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Lol Lexxy+ - X - Lol Lexxy+", m)
+mans.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, "© Rixzz+ - X - Rixzz+", m)
 delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
 }
@@ -2576,12 +2576,12 @@ if (!args.join(" ")) return m.reply(`Text mana?\n\nExample : ${prefix + command}
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'SCRIPT',
-                                    url: 'https://github.com/Lexxy24/KaguraMD'
+                                    url: 'https://github.com/WonXd'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'OWNER',
-                                    phoneNumber: ' +62 822-7991-5237'
+                                    phoneNumber: ' +62 895-3374-47795'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2651,7 +2651,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© Lol Lexxy+ - X - Lol Lexxy+",
+footer: "© Rixzz+ - X - Rixzz+",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -2695,7 +2695,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© Lol Lexxy+ - X - Lol Lexxy+",
+footer: "© Rixzz+ - X - Rixzz+",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -2740,7 +2740,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© Lol Lexxy+ - X - Lol Lexxy+",
+footer: "© Rixzz+ - X - Rixzz+",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -3279,7 +3279,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4
 }
@@ -3303,7 +3303,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4
 }
@@ -3329,7 +3329,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4
 }
@@ -3352,7 +3352,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© Lol Lexxy+ ",
+footer: "© WonXd+ ",
 buttons: buttons,
 headerType: 4
 }
@@ -3519,13 +3519,13 @@ if (!m.isGroup) return m.reply(mess.group)
 let response = await mans.groupInviteCode(m.chat)
 mans.sendMessage(m.chat, {text:`Link Group ${groupMetadata.subject} : \nhttps://chat.whatsapp.com/${response}l`, "contextInfo": {
 mimetype: "image/jpeg",
-text: "Lol Lexxy+",
+text: "WonXd+",
 "forwardingScore": 1000000000,
 isForwarded: true,
 sendEphemeral: true,
 "externalAdReply": {
-"title": `Lol Lexxy+`,
-"body": `Lol Lexxy+`,
+"title": `WonXd+`,
+"body": `WonXd+`,
 "previewType": "PHOTO",
 "thumbnailUrl": thum,
 "thumbnail": thum,
@@ -3571,8 +3571,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 Lol Lexxy+ 」*\n\nChange Info, Select Open Or Close`,
-footer: "© Lol Lexxy+",
+caption: `*「 WonXd+ 」*\n\nChange Info, Select Open Or Close`,
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4
 }
@@ -3597,8 +3597,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 Lol Lexxy+ 」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© Lol Lexxy+",
+caption: `*「 WonXd+ 」*\n\nChange Group Setting, Select Open Or Close`,
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4
 }
@@ -3701,7 +3701,7 @@ content: [{ tag: "invite", attrs: { code: vcc } }]
 sizny = res.content[0].attrs.size
 if (sizny < 50) {
 teks = `Maaf anggota group anda kurang dari 50, minimal agar bot join harus mempunyai lebih dari 50 anggota`
-sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./media/image/mans.jpg'), 2022, "Lol Lexxy+ ~ Multi Device", "6283155687629@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./media/image/mans.jpg'), 2022, "WonXd+ ~ Multi Device", "6283155687629@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
 } else if (sizny > 50) {
 await mans.groupAcceptInvite(vcc).then(async(res) => m.reply(jsonformat(res))).catch(_ => _)
 m.reply("Succes")
@@ -4184,12 +4184,12 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© Lol Lexxy+ - X - Lol Lexxy+",
+body:"© Rixzz+ - X - Rixzz+",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/watch?v=w6w0cy_1HY4",
@@ -4247,7 +4247,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4
 }
@@ -4286,7 +4286,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4
 }
@@ -4316,7 +4316,7 @@ if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
 title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© Lol Lexxy+ - X - Lol Lexxy+",
+body:"© Rixzz+ - X - Rixzz+",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/watch?v=w6w0cy_1HY4",
@@ -4333,7 +4333,7 @@ if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
 title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© Lol Lexxy+ - X - Lol Lexxy+",
+body:"© Rixzz+ - X - Rixzz+",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtube.com/watch?v=w6w0cy_1HY4",
@@ -4364,11 +4364,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Lol Lexxy+ - Twitter Downloader",
+title:"WonXd+ - Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4393,11 +4393,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Lol Lexxy+ - Twitter Downloader",
+title:"WonXd+ - Twitter Downloader",
 body: "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4429,11 +4429,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Lol Lexxy+ - Facebook Downloader",
+title:"WonXd+ - Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4459,11 +4459,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© Lol Lexxy+",
+footer: "© WonXd+",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Lol Lexxy+ - Facebook Downloader",
+title:"WonXd+ - Facebook Downloader",
 body: " Facebook Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4527,7 +4527,7 @@ case 'iqra': {
 		oh = `Example : ${prefix + command} 3\n\nIQRA Yang tersedia : 1,2,3,4,5,6`
 		if (!text) return oh
 		yy = await getBuffer(`https://islamic-api-indonesia.herokuapp.com/api/data/pdf/iqra${text}`)
-		mans.sendMessage(m.chat, {document: yy, mimetype: 'application/pdf', fileName: `iqra${text}.pdf By Lexxy`}, {quoted:m}).catch ((err) => m.reply(oh))
+		mans.sendMessage(m.chat, {document: yy, mimetype: 'application/pdf', fileName: `iqra${text}.pdf By WonXd`}, {quoted:m}).catch ((err) => m.reply(oh))
 		}
 		break
 		case 'juzamma': {
@@ -4657,7 +4657,7 @@ Author : ${anu.author.name}
 Channel : ${anu.author.url}
 Description : ${anu.description}
 Url : ${anu.url}`,
-                    footer: `Created By © LexxySlemek\nPilih Video Apa Audio?`,
+                    footer: `Created By © WonXd\nPilih Video Apa Audio?`,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4687,12 +4687,12 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© Lol Lexxy+",
+footer: "© AriiXd+",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© Lol Lexxy+ - X - Lol Lexxy+",
+body: "© Rixzz+ - X - Rixzz+",
 thumbnail: {url:res.thumb},
 mediaType:2,
 mediaUrl: args[0],
@@ -5000,7 +5000,7 @@ case 'pinterest': {
 case 'swm': case 'stickerwm': {
  fakey(mess.wait)
 if (isBan) return m.reply(mess.ban)
-if (!args.join(" ")) return m.reply(`Example :\nswm Lexxy||77+ | Pack`)
+if (!args.join(" ")) return m.reply(`Example :\nswm Won||77+ | Pack`)
 if (isLimit < 1) return reply("Limit kamu sudah habis , silahkan beli dengan cara #buy limit _jumlah_")
      db.users[m.sender].limit -= 1 // -1 limit
      m.reply(`Satu limit terpakai\nSisa limit kamu : ${global.db.users[m.sender].limit}`)
@@ -5237,14 +5237,14 @@ mans.sendMessage(from, { text: `Rate : ${q}\nJawaban : *${te}%*` }, { quoted: m 
 break
 case 'gantengcek':
 case 'cekganteng':
- if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Riych`)
+ if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Ari`)
 const gan = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
 const teng = gan[Math.floor(Math.random() * gan.length)]
 mans.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${teng}%*` }, { quoted: m })
 break
 case 'cantikcek':
   case 'cekcantik':
- if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Riych`)
+ if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Rani`)
 	const can = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
 const tik = can[Math.floor(Math.random() * can.length)]
 mans.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${tik}%*` }, { quoted: m })
